@@ -1,20 +1,19 @@
-/*Proyecto Figma Semana 4
--Maquetacion
--Colores
--Fuentes
--Estructura*/
-
-:root{
-    user-select: rgba(3, 80, 246, 0.835);
-    user-zoom:  rgba(37, 151, 146, 0.568);
-    border-collapse: rgba(50, 30.8, 59.3, 0.56);
-
+header{
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
 }
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+.container-head{
+   display: grid;
+   grid-template-columns: 70% 30%;
 }
-html{
-    font-family: 'Baloo Tammudu 2', cursive;
+.container-title{
+    justify-content: left;
+    padding: 5px;
+    
+}
+.container-notifications{
+    justify-items: right;
+    padding-left: 70%;
+    margin-top: 20px;
 }
