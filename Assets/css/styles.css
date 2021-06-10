@@ -1,3 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+body{
+    min-width: 350px;
+    background-color: #cabdf58c;
+}
 header{
     width: 100%;
     margin-top: 15px;
@@ -10,10 +22,143 @@ header{
 .container-title{
     justify-content: left;
     padding: 5px;
-    
+    font-size: 1.4rem;
+    font-weight: 600;  
+    color: #58506bdc;  
 }
 .container-notifications{
     justify-items: right;
     padding-left: 70%;
     margin-top: 20px;
+}
+.container-card{
+    width: 95%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 230px;
+    background: -webkit-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); 
+    border-radius: 25px;
+    margin: 0 auto;
+ 
+    
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(100px, 115px);
+}
+.card-title{
+    margin: 0 auto;
+    line-height: 25px;
+    margin-top: 35px;
+    color: azure;
+}
+.card-title h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.container-img{
+    position: relative;
+    padding-bottom: 25px;
+    padding-left: 5%;
+}
+.container-img img{
+    position: absolute;
+    top: -30px;
+}
+.container-saldo{
+    margin-left: 20px;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: azure;
+}
+.container-saldo h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.container-saldo p{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.container-std{
+    margin-top: 30px;
+}
+.container-stadistic{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+   padding: 20px 25px 20px 25px;
+   background-color: honeydew;
+   border-radius: 20px;    
+   font-size: 1rem;
+   font-weight: 300;
+   color: #58506bdc;
+}
+.container-stadistic p{
+    margin-left: 50px;
+    text-align: right;
+}
+.container-metas{
+    width: 95%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #58506bdc;
+}
+.container-metas-img{
+    padding-left: 70%;
+    margin-top: 5px;
+}
+.gifts{
+    margin-top: 10px;
+}
+.container-gifts{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;  
+}
+.container-gifts .gift{
+    background-color: honeydew;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #58506bdc;
+    line-height: 30px;
+}
+.container-gifts img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.porcentajes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    grid-template-rows: minmax(50px, 60px);
+}
+.invisible{
+    color: honeydew;
+}
+.porcentajes p{
+    font-size: 0.6rem;
+    font-weight: 400; 
+    line-height: 15px;   
+    margin-top: 10px;
+}
+.porcentaje-blue{
+    font-size: 0.8rem;
+    color: #05a9e0ce;
+    font-weight: 600;
 }
